@@ -1,0 +1,77 @@
+.items-container.grid.grid-cols-7.gap-y-5.p-4.content-center {
+    position: relative;
+  }
+  .items-bg{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+.remove-bg{
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+
+  .item{
+     position:absolute;
+    transition: 0.5s;
+
+  }
+
+  .hide {
+    left: -150px;
+    top: -10px;
+    transform: scale(0);
+    z-index: -100;
+    
+}
+
+.show-1{
+  left:10px;
+  top:10px;
+}
+.show-2{
+  left:140px ;
+  top:10px;
+}
+.show-3{
+  left:275px ;
+  top:10px;
+}
+.show-4{
+  left:410px ;
+  top:10px;
+}
+.show-5{
+  left:545px ;
+  top:10px;
+}
+.show-6{
+  left: 680px; ;
+  top:10px;
+}
+.show-7{
+  left:815px ;
+  top:10px;
+}
+.show-8{
+  left:10px ;
+  top:150px;
+}
+.show-9{
+  left:140px ;
+  top:150px;
+}
+.show-10{
+  left:270px;
+  top:150px;
+}
+.show-11{
+  left:405px ;
+  top:150px;
+}
+.show-12{
+  left:540px ;
+  top:150px;
+}
